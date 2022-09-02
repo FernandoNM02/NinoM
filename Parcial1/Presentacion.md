@@ -2,7 +2,7 @@
 | Grado | Nombre  |
 | - | - |
 | Secundaria | Escuela Secundaria Tecnica #32 |
-| Preparatoria | Bachillerato Tecnologico Cumbre |
+| Media Superior | Bachillerato Tecnologico Cumbre |
 | Superior  | TecNM Campus Nuevo Laredo |
 
 ## Experiencia Laboral

@@ -1,0 +1,24 @@
+.caja{
+    background-color: rgb(98, 195, 83);
+    width: 500px;
+    height: 500px;
+    left: 50px;
+    position: relative;
+}
+.cajita{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 50px;
+    position: absolute;
+}
+.cajita1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 50px;
+    position: absolute;
+    margin-left: 100px;
+}
