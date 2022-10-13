@@ -12,16 +12,22 @@
         <div class="caja" id="caja1" onclick="alert('Click en caja 1 ')"><h3>Caja 1</h3></div>
         <div class="caja" id="caja2"><h3>Caja 2</h3></div>
         <div class="caja" id="caja3"><h3>Caja 3</h3></div>
-        <div class="caja" id="caja4"><h3>Caja 4</h3></div>
-        <div class="caja" id="caja5"><h3>Caja 5</h3></div>
-        <div class="caja" id="caja6"><h3>Caja 6</h3></div>
+   
     </div>
-    <script>
-        /* Propiedad onclick*/
-        document.getElementById("caja2").onclick = function(){ alert("Click en caja 2")}
-        /* Funcion addEventListener*/
-        document.querySelector('#caja3').addEventListener("click",mifuncion);
-        function mifuncion(){alert("Click en caja 3")}
+    <script src="/Parcial2/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
+        
+        //document.getElementById("caja2").onclick = function(){ alert("Click en caja 2")}
+       
+        //document.querySelector('#caja3').addEventListener("click",mifuncion);//
+        //function mifuncion(){alert("Click en caja 3")} //
+        $(document).ready(function(){
+            $("#caja2").click(function(){
+                alert("SI FUNCIONO")
+            })
+
+        });
+
     </script>
 </body>
 </html>
