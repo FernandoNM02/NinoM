@@ -67,4 +67,5 @@
 .content .box:hover{
     background-color: darkcyan;
     color: white;
+    transition-duration: 2s;
 }
