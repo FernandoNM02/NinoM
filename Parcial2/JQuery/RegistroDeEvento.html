@@ -14,13 +14,19 @@
         <div class="caja" id="caja3"><h3>Caja 3</h3></div>
    
     </div>
-    <script >
+    <script src="/Parcial2/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
         
-     /* Propiedad onclick*/
-     document.getElementById("caja2").onclick = function(){ alert("Click en caja 2")}
-        /* Funcion addEventListener*/
-        document.querySelector('#caja3').addEventListener("click",mifuncion);
-        function mifuncion(){alert("Click en caja 3")}
+        //document.getElementById("caja2").onclick = function(){ alert("Click en caja 2")}
+       
+        //document.querySelector('#caja3').addEventListener("click",mifuncion);//
+        //function mifuncion(){alert("Click en caja 3")} //
+        $(document).ready(function(){
+            $("#caja2").click(function(){
+                alert("SI FUNCIONO")
+            })
+
+        });
 
     </script>
 </body>
