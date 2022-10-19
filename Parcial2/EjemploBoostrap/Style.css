@@ -1,8 +1,8 @@
 .head{
-    background-color: orange;
+    background-color: rgb(218, 150, 218);
 }
 div{
-    border: 1px solid black;
+    border: 3px solid black;
 }
 #r1col3{
     background-color: rgb(151, 225, 181);
@@ -11,7 +11,7 @@ div{
     background-color: lightskyblue;
 }
 #r3col2{
-    background-color: purple;
+    background-color: rgb(124, 197, 128);
 }
 #r1col2{
     background-color: rgb(98, 167, 178);
