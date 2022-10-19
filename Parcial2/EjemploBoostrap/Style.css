@@ -1,0 +1,21 @@
+.head{
+    background-color: orange;
+}
+div{
+    border: 1px solid black;
+}
+#r1col3{
+    background-color: rgb(151, 225, 181);
+}
+#r1col1{
+    background-color: lightskyblue;
+}
+#r3col2{
+    background-color: purple;
+}
+#r1col2{
+    background-color: rgb(98, 167, 178);
+}
+#r3col3{
+    background-color: rgb(190, 136, 204);
+}
