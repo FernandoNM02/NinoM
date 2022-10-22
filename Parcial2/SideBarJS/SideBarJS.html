@@ -1,38 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./StyleJS.css">
-</head>
-<body>
- <button id="Button1">BOTON</button>
-        
-    </label>
-        <div class="SideBarJS" id="SideBar">
-            <header>SideBar</header>
-            <ul>
-                <li><a href="#"> Menu</a></li>
-                <li><a href="#"> Inicio</a></li>
-                <li><a href="#"> Eventos</a></li>
-                <li><a href="#"> Sobre</a></li>
-            </ul>
-        </div>
-        <script src="/Parcial2/jquery-3.6.1.min.js"></script>
-        <script type="text/javascript">
-         window.onload = function() {
-        document.getElementById("Button1").addEventListener("click",alternarMenu);
+    <title>Animated Sidebar CSS</title> </head>
+    <link rel="stylesheet" href="StyleJS.css">
+  <body>
+      
+    <div id="sidebar">
+      <div class="toggle-btn">
+        <span>&#9756</span>
+      </div>
+      <ul>
+        <li>Inicio</li>
+        <li>Informacion</li>
+        <li>Solicitudes</li>
+      </ul>
+    </div>
 
-        function alternarMenu() {
-            document.getElementById("SideBar").classList.toggle("MenuEscondido");
-            document.getElementById("contenido").classList.toggle("MargenCero");
-        }
-        }
-        </script>
-        
-    
-
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
