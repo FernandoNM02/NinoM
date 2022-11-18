@@ -5,13 +5,12 @@
     document.getElementById("Nombres").value = dato.name;
     
       }); */
-      
+
       document.getElementById('btnGet').addEventListener('click',async()=>{
-        //console.log('hola')
         const data = await (await fetch('./data.php')).json()
-        console.log(dato)
-        document.getElementById('NumeroTelefono').value = dato.name
-        document.getElementById('Nombres').value = dato.phone
+        console.log(data)
+        document.getElementById('NumeroTelefono').value = data.name
+        document.getElementById('Nombres').value = data.phone
     
         
     
