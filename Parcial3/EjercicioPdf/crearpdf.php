@@ -1,5 +1,5 @@
 <?php
-$nombre=$_POST['nombre']
+$nombre=$_POST['nombre'];
 
 require('./FPDF/fpdf.php');
 
