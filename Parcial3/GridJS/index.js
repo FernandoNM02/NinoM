@@ -15,9 +15,10 @@ setTimeout(async () => {
       }
       List.push(object);
     }
-
+console.log(List)
 new gridjs.Grid({
-    columns: ["id", "Name", "direccion","telefono"],
+
+    columns: ["ID", "Name","direccion","telefono"],
     data: List
   }).render(document.getElementById("wrapper"));
 
